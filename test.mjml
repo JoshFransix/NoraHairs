@@ -1,0 +1,197 @@
+<mjml version="4.9.3">
+  <mj-head>
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" />
+    <mj-text />
+    <mj-style>
+      @media(min-width: 480px) {
+
+        .ibloov-mobile-heading div,
+        .ibloov-mobile-desc div,
+        .ibloov-mobile-btn {
+          text-align: left !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    
+    <mj-section background-color="#FFFFFF" background-repeat="repeat" padding="30px 0" text-align="center">
+      <mj-column>
+        <mj-image align="center" src="https://res.cloudinary.com/hoshistech/image/upload/v1655993438/email-template/banner_z6blxb.svg" width="128px"></mj-image>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+      <mj-section background-color="#ccc" border-radius="10px">
+    <mj-text font-size="16px" align="center" font-family="Poppins">
+      PS: I Love You!
+      </mj-text>
+    </mj-section>
+    </mj-section>
+
+    <mj-section>
+      <mj-column font-family="Poppins">
+        <mj-text font-size="16px" align="left" line-height="20px" font-family="Poppins" >
+         Hello {{ name }},
+        </mj-text>
+        
+        <mj-text font-size="16px" line-height="22px" font-family="Poppins">
+        Regardless of your relationship status, TrueFlutter Love Fest is one event that will surely revolutionalize not only your love life but also connect you to some amazing people.
+        </mj-text>
+        
+        <mj-text font-size="16px" line-height="22px" font-family="Poppins">
+        We've planned an evening of fun, entertainment, and an opportunity to connect with new people both on a social and business plane.
+        </mj-text>
+        
+      </mj-column>
+    </mj-section>
+    
+    <mj-section>
+    <mj-column width="50%">
+      <mj-text font-size="16px" line-height="22px" font-family="Poppins">
+        Our Singles & Couples Event will take place on February 11th at CCX Lagos 273 Kofo Abayomi St. VI. The day will include music, delicious food, and a variety of activities that will keep you entertained throughout the event.
+        </mj-text>
+        
+        <mj-text font-size="16px" line-height="22px" font-family="Poppins">
+        We've also arranged for some special surprises that will make the day even more memorable.
+        </mj-text>
+      </mj-column>
+    <mj-column width="50%">
+      <mj-image align="center" src="https://i.ibb.co/kgSDZqx/trueflutter.jpg"></mj-image>
+      </mj-column>
+      
+    </mj-section>
+
+    <mj-section background-color="#FFFFFF" padding="10px 0">
+      <mj-column>
+        <mj-text align="left" font-size="16px" font-family="Poppins">
+        Save the Date!!
+        </mj-text>
+      </mj-column>
+      <mj-divider border-width="2px" border-style="solid" border-color="lightgrey"></mj-divider>
+    </mj-section>	
+    
+    <mj-section>
+      <mj-column>
+        <mj-text font-size="16px" align="center" line-height="20px" font-family="DMSerif, Arial">
+          Introducing <span style="font-weight: bold; color:#00237B; font-size: 18px">iBloov</span>, an event management and creation application that connects you to all the banging events around you and brings you an inch closer to a community of people seeking the same lifestyle as you. Find discounts on big events, access exclusive tickets and explore the world around you.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-wrapper padding="0">
+      <mj-section padding="20px">
+        <mj-column vertical-align="middle">
+          <mj-image src="https://res.cloudinary.com/hoshistech/image/upload/v1657016190/email-template/signin_ezylqs.svg" width="170px" alt="Photo of Ibloov Mobile app" />
+        </mj-column>
+        <mj-column css-class="ibloov-mobile-b" vertical-align="middle">
+          <mj-text css-class="ibloov-mobile-heading" align="center" font-weight="600" font-size="20px">
+            Create Events
+          </mj-text>
+          <mj-text css-class="ibloov-mobile-desc" align="center" font-size="15px" line-height="20px">
+            Create and share your events with the world. Host a masterclass, birthdays, weddings, webinars. Just <a href="https:///www.ibloov.com" style="color:#00237B">Bloov</a> it.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0">
+      <mj-section padding="20px">
+        <mj-column css-class="ibloov-mobile-b" vertical-align="middle">
+          <mj-text css-class="ibloov-mobile-heading" align="center" font-weight="600" font-size="20px">
+            Explore Events
+          </mj-text>
+          <mj-text css-class="ibloov-mobile-desc" align="center" font-size="15px" line-height="20px">
+            Discover exciting Places and connect with beautiful People around you.
+          </mj-text>
+        </mj-column>
+        <mj-column vertical-align="middle">
+          <mj-image src="https://res.cloudinary.com/hoshistech/image/upload/v1657015928/email-template/explore_ovcxo2.svg" width="170px" alt="Photo of Ibloov Mobile app" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-wrapper padding="0">
+      <mj-section padding="20px">
+        <mj-column vertical-align="middle">
+          <mj-image src="https://res.cloudinary.com/hoshistech/image/upload/v1657016091/email-template/tickets_up1eng.svg" width="170px" alt="Photo of Ibloov Mobile app" />
+        </mj-column>
+        <mj-column css-class="ibloov-mobile-b" vertical-align="middle">
+          <mj-text css-class="ibloov-mobile-heading" align="center" font-weight="600" font-size="20px">
+            Purchase Tickets
+          </mj-text>
+          <mj-text css-class="ibloov-mobile-desc" align="center" font-size="15px" line-height="20px">
+            Easily book tickets to your favorite events and shows.
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <mj-section padding-top="0">
+      <mj-column>
+        <mj-text font-size="16px" font-weight="700" font-style="italic" align="center" line-height="20px" font-family="DMSerif, Arial">
+          Events are fun and easy to find if you know where to look. Join the world of events and have a great time! Download the iBloov app to get started today.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-text padding-bottom="0" align="center" font-weight="600" line-height="30px" font-size="22px">
+          Ready? <br> Get Started
+        </mj-text>
+        <mj-social padding-top="0" icon-padding="5px" icon-size="130px">
+          <mj-social-element href="https://play.google.com/store/apps/details?id=com.ibloov.app" target="_blank" src="https://res.cloudinary.com/hoshistech/image/upload/v1655992239/email-template/Google_Play_Badge_nrlyc9.svg">
+          </mj-social-element>
+          <mj-social-element href="https://apps.apple.com/ng/app/ibloov/id1597895840" target="_blank" src="https://res.cloudinary.com/hoshistech/image/upload/v1655992182/email-template/App_Store_Badge_c3vk99.svg">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+
+    <mj-section padding="0">
+      <mj-column>
+        <mj-social icon-padding="5px" icon-size="40px">
+          <mj-social-element href="https://www.facebook.com/ibloov" target="_blank" src="https://ci5.googleusercontent.com/proxy/3D0ppZ1usjTInJbThHc-akfJdCpxrf_Aoy9Ad8ChffrWB_CmVChr_pff9eTr3kj2cnOOXyAIoPaMUkPh-7if_7WkTlrKNVs0Wcw2NcVfiGKI1sFZfPuJLAQPJVO106a4FekDsOwaLQ=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-facebook-96.svg">
+          </mj-social-element>
+          <mj-social-element href="https://twitter.com/ibloov_official" target="_blank" src="https://ci3.googleusercontent.com/proxy/yo5cLvvqZTOu4s7fpiT0mHcCrpdJbBuhrcbzhNjm5ixZV7AA6ZD5YUG7f85Tp2hEW-Gf6KCRh0cV9tuNt34XtSHh8qU-vAmwz_H0-TDoJeMJl-0hIFWh1XCD2By4lvEqnXcvN6uc=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-twitter-96.svg">
+          </mj-social-element>
+          <mj-social-element href="https://www.instagram.com/ibloov/" target="_blank" src="https://ci5.googleusercontent.com/proxy/a-8KnxKQnbQ2UDiDcb8Rgx12W-UI0hnH-hJAtAVMAltsC3GsYYgYmk5DlJvMCGiJuaSy0JRFj8QGHzqwOk212StTmW2OjCD9D5yQZqPIHekA04wBwojn1KtGUQktV8SXLlts2LjsmUc=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-instagram-96.svg">
+          </mj-social-element>
+          <mj-social-element href="https://www.ibloov.com" target="_blank" src="https://ci5.googleusercontent.com/proxy/xN1vIiu4L8G24_QJuRW7_lLTQEDFLkGxkFXJbxSv6eIpj3rg8PnCFKJ1h-5EuI9q4RN7F1cOgDMbkypCapnUzj5eZbA09vKf4o_5KhsZXg3knz2_J9POsKTy-oxNGESpBID7=s0-d-e1-ft#https://cdn-images.mailchimp.com/icons/social-block-v2/outline-color-link-96.svg">
+          </mj-social-element>
+
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="center">
+          © 2022 ibloov. All rights reserved
+        </mj-text>
+        <mj-text align="center">
+          You are recieveing this mail because you opted in via our website
+        </mj-text>
+        <mj-text align="center">
+          <span style="font-weight: bold; font-size:15px;"> Our mailing address is:</span>
+          <br><br>
+          Hoshitech, 202515 Big Wells Dr
+          <br>Katy, TX 77449-6258
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="20px">
+      <mj-column>
+        <mj-text font-size="14px" align="center">
+          Want to change how you receive these emails? You can
+          <a href="{{{unsubscribe_preferences}}}">Update your preferences </a>or
+          <a href="{{{unsubscribe}}}">Unsubscribe from the list.</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
